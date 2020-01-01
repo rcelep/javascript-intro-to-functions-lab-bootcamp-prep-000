@@ -6,7 +6,7 @@ function whisper(string) {
   return string.toLowerCase()
 }
 
-var spy = "hello"
+var spy = 'hello'
 function logShout(string) {
   console.log(spy.toUpperCase()) 
 }
@@ -17,6 +17,6 @@ function logWhisper(string) {
 
 function sayHiToGrandma(string) {
   if (string === "hello") {
-    console.log("I can't hear you!")
+    console.log('I can\'t hear you!')
   }
 }
